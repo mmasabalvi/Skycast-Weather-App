@@ -1,3 +1,10 @@
+#Pre-reqs:
+#pip install requests
+#Make OpenWeather Map Account
+#Ensure API is activated
+#Copy API Key here
+#Note: Free plan cannot predict weather, just shows live weather
+
 import datetime as dt
 import requests #for API requests
 
