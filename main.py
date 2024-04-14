@@ -5,7 +5,7 @@ print("SKYCAST WEATHER APP")
 print()
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
-API_KEY = "a97259c8d9557ebf1d9aa3fee88e8862"
+API_KEY = "{add api_key here}"  #add api key
 CITY = input("Enter City: ")
 
 url = BASE_URL + "appid=" + API_KEY + "&q=" + CITY
