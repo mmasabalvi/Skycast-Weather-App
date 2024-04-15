@@ -13,7 +13,7 @@ print()
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 API_KEY = "{add api_key here}"  #add api key
-CITY = input("Enter City: ")
+CITY = input("Enter City: ")    #First Letter must always be Upper case when entering, for e.g ("Rawalpindi", "New York")
 
 url = BASE_URL + "appid=" + API_KEY + "&q=" + CITY
 
